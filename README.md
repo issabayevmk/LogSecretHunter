@@ -1,7 +1,7 @@
 # LogSecretHunter: Secure Your Logs in S3
 
 ## Overview
-LogSecretHunter is a powerful tool designed to scan log files stored in Amazon S3 for sensitive information, such as secrets, API keys, and passwords. By leveraging the detect-secrets tool, LogSecretHunter ensures your log files are free from sensitive data leaks, helping you maintain security and compliance.
+LogSecretHunter is a powerful tool designed to scan log files stored in Amazon S3 for sensitive information, such as secrets, API keys, and passwords. By leveraging the `detect-secrets` tool, LogSecretHunter ensures your log files are free from sensitive data leaks, helping you maintain security and compliance.
 
 ## Features
 * **Automated Scanning**: Asynchronous downloads and scans log files using asyncio and aiobotocores from your specified S3 bucket based on a prefix and time window. 
