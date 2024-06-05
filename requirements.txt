@@ -1,0 +1,4 @@
+aiobotocore==1.4.1
+aiofiles==0.7.0
+asyncio==3.4.3
+detect-secrets==1.0.5
